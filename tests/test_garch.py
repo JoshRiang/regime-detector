@@ -13,6 +13,8 @@ def _simulate_garch(n: int, omega: float, alpha: float, beta: float,
                     seed: int = 17, dist: str = "normal") -> np.ndarray:
     """Simulate a GARCH(1,1) series with the given parameters.
 
+# Maintenance: last reviewed 2026-09-09 (daily improvement cycle)
+
     Returns the *return* series (in raw decimal form, NOT in %).
     """
     rng = np.random.default_rng(seed)
