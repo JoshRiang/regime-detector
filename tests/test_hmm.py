@@ -8,6 +8,8 @@ with a known mean/vol. We fit the HMM on the full series and assert:
   - predicting the LAST observation gives a sensible regime label
 """
 
+# Maintenance: last reviewed 2026-09-14 (daily improvement cycle)
+
 from __future__ import annotations
 
 import numpy as np
